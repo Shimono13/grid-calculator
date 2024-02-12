@@ -1,0 +1,55 @@
+.pulsante-risultato {
+  grid-column: 1 / span 4;
+  display: grid;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: gray;
+}
+
+.pulsante-risultato a {
+  margin-right: 30px;
+}
+.Pulsante-uguale {
+  grid-column: 4;
+  grid-row: 3 / span 4;
+  background-color: rgb(235, 93, 93);
+  display: grid;
+  align-items: center;
+}
+
+.grid-container {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.grid-item {
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+
+.pulsante-più,
+.pulante-meno,
+.pulsante-x,
+.Pulsante-diviso {
+  background-color: rgb(177, 176, 176);
+}
+
+.Pulsante-7,
+.Pulsante-8,
+.Pulsante-9,
+.Pulsante-4,
+.Pulsante-5,
+.Pulsante-6,
+.Pulsante-1,
+.Pulsante-2,
+.Pulsante-3,
+.Pulsante-0,
+.Pulsante-punto,
+.Pulsante-ac {
+  background-color: rgb(233, 233, 233);
+  height: 100%;
+}
